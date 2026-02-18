@@ -1,0 +1,137 @@
+{
+    "all_models": [
+        {
+            "model": "Random Forest (SMOTE)",
+            "roc_auc": 0.9209286189924049,
+            "pr_auc": 0.6370213704406935,
+            "f1": 0.5633802816901409,
+            "mcc": 0.5402242832431164,
+            "sensitivity": 0.5607476635514018,
+            "specificity": 0.9770802192326856
+        },
+        {
+            "model": "Gradient Boosting (SMOTE)",
+            "roc_auc": 0.907815635928456,
+            "pr_auc": 0.6328042704486452,
+            "f1": 0.5570776255707762,
+            "mcc": 0.5330499008613198,
+            "sensitivity": 0.5700934579439252,
+            "specificity": 0.9745889387144993
+        },
+        {
+            "model": "Random Forest (Weighted)",
+            "roc_auc": 0.9078109793293565,
+            "pr_auc": 0.6143222481087827,
+            "f1": 0.5189873417721519,
+            "mcc": 0.5403145544993044,
+            "sensitivity": 0.38317757009345793,
+            "specificity": 0.9950174389636273
+        },
+        {
+            "model": "AdaBoost (SMOTE)",
+            "roc_auc": 0.9108796781358702,
+            "pr_auc": 0.6126680926948816,
+            "f1": 0.41919191919191917,
+            "mcc": 0.4294762128773203,
+            "sensitivity": 0.7757009345794392,
+            "specificity": 0.8973592426507224
+        },
+        {
+            "model": "Random Forest (Baseline)",
+            "roc_auc": 0.9140787617171674,
+            "pr_auc": 0.6088709023600369,
+            "f1": 0.5490196078431373,
+            "mcc": 0.586767662934888,
+            "sensitivity": 0.3925233644859813,
+            "specificity": 0.9980069755854509
+        },
+        {
+            "model": "Bagging Classifier (Weighted)",
+            "roc_auc": 0.8963045229547053,
+            "pr_auc": 0.6051167467811099,
+            "f1": 0.524390243902439,
+            "mcc": 0.5344302932688949,
+            "sensitivity": 0.40186915887850466,
+            "specificity": 0.9930244145490782
+        },
+        {
+            "model": "Gradient Boosting (Weighted)",
+            "roc_auc": 0.9078505604217016,
+            "pr_auc": 0.597946664533552,
+            "f1": 0.5818181818181818,
+            "mcc": 0.5953149699101543,
+            "sensitivity": 0.4485981308411215,
+            "specificity": 0.9950174389636273
+        },
+        {
+            "model": "Logistic Regression (Baseline)",
+            "roc_auc": 0.8756525059488053,
+            "pr_auc": 0.5676924785996633,
+            "f1": 0.535031847133758,
+            "mcc": 0.5604778600674301,
+            "sensitivity": 0.3925233644859813,
+            "specificity": 0.9960139511709019
+        },
+        {
+            "model": "Logistic Regression (SMOTE)",
+            "roc_auc": 0.8851659379089076,
+            "pr_auc": 0.5021174267535188,
+            "f1": 0.36086956521739133,
+            "mcc": 0.37685384292952445,
+            "sensitivity": 0.7757009345794392,
+            "specificity": 0.8654708520179372
+        },
+        {
+            "model": "Logistic Regression (Weighted)",
+            "roc_auc": 0.8901438423461809,
+            "pr_auc": 0.4825474858082231,
+            "f1": 0.37362637362637363,
+            "mcc": 0.39212461177012303,
+            "sensitivity": 0.794392523364486,
+            "specificity": 0.8689586447433981
+        },
+        {
+            "model": "Decision Tree (Weighted)",
+            "roc_auc": 0.8023529795249338,
+            "pr_auc": 0.4817207656006645,
+            "f1": 0.40217391304347827,
+            "mcc": 0.3987585477864308,
+            "sensitivity": 0.6915887850467289,
+            "specificity": 0.9068261086198306
+        },
+        {
+            "model": "Decision Tree (SMOTE)",
+            "roc_auc": 0.8027534470474834,
+            "pr_auc": 0.43675206379673237,
+            "f1": 0.43260188087774293,
+            "mcc": 0.41860893049245756,
+            "sensitivity": 0.6448598130841121,
+            "specificity": 0.9287493771798705
+        }
+    ],
+    "confusion_matrix_default": [
+        [
+            1961,
+            46
+        ],
+        [
+            47,
+            60
+        ]
+    ],
+    "confusion_matrix_optimal": [
+        [
+            1993,
+            14
+        ],
+        [
+            57,
+            50
+        ]
+    ],
+    "training_info": {
+        "smote_applied": true,
+        "class_balancing": "Class weights + SMOTE",
+        "feature_engineering": "Extensive (rolling stats, lags, interactions)"
+    }
+}
