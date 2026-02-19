@@ -1,0 +1,13 @@
+Model,PR_AUC,ROC_AUC,F1,F2,MCC,Sensitivity,Specificity
+LightGBM_Optimized,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+CatBoost_Optimized,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+RandomForest,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+GradientBoosting,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+CatBoost_Optimized_Calibrated,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Stacked_Ensemble,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+XGBoost_Optimized_Calibrated,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+LightGBM_Optimized_Calibrated,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+GradientBoosting_Calibrated,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+RandomForest_Calibrated,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Stacked_Ensemble_Calibrated,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+XGBoost_Optimized,0.9999999999999999,1.0,1.0,1.0,1.0,1.0,1.0

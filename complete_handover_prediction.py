@@ -229,7 +229,7 @@ df['Distance_cumsum'] = df.groupby('DeviceID')['Distance_moved'].cumsum()
 
 # Velocity features
 df['Velocity_accel'] = df.groupby('DeviceID')['Velocity(km/h)'].diff().fillna(0)
-df['Velocity_stable'] = (df['Velocity_std_5'] < 2).astype(int)
+df['Velocity_stable'] = (df['Velocity(km/h)_std_5'] < 2).astype(int)
 df['High_speed'] = (df['Velocity(km/h)'] > 60).astype(int)
 
 # Mobility pattern
